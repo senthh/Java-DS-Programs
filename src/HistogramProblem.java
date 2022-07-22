@@ -8,7 +8,7 @@ public class HistogramProblem {
         int i  = 0;
         int tp = 0;
 
-        while(i < number_bars) {
+       /* while(i < number_bars) {
             if(st.isEmpty() || hist[i] >=  hist[st.peek()]) {
                 st.push(i++);
             }
@@ -17,7 +17,7 @@ public class HistogramProblem {
                 st.pop();
                 area = hist[tp] *
             }
-        }
+        }*/
         return area;
     }
 }
